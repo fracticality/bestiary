@@ -17,8 +17,9 @@ return {
                 default_value = {},
                 keybind_global = false,
                 keybind_trigger = "pressed",
-                keybind_type = "view_toggle",
-                view_name = "bestiary_view",
+                keybind_type = "function_call",
+		function_name = "open_bestiary_view",
+                --view_name = "bestiary_view",
                 transition_data = {
                     open_view_transition_name = "open_bestiary_view",
 
